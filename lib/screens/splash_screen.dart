@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_intership_task/display_data.dart';
 import 'package:flutter_intership_task/screen_transition/page_transition_effect.dart';
+import 'package:flutter_intership_task/screens/display_data.dart';
 
 class SplashScreen extends StatefulWidget {
   final Color backgroundColor = Colors.white;

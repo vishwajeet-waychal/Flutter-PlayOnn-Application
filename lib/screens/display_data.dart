@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_intership_task/image_view.dart';
 import 'package:flutter_intership_task/modal/week_day_label.dart';
 import 'package:flutter_intership_task/screen_transition/page_transition_effect.dart';
+import 'package:flutter_intership_task/screens/image_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert' show json;
@@ -15,7 +15,7 @@ class DisplayData extends StatefulWidget {
 
 class _DisplayDataState extends State<DisplayData> {
 
-  List data;
+  static List data;
   String url = 'http://playonnuat-env.eba-ernpdw3w.ap-south-1.elasticbeanstalk.com/api/v1/establishment/test/list?offset=0&limit=10';
 
   Future<void> fetchData() async {
