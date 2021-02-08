@@ -1,4 +1,4 @@
-# flutter_intership_task
+# flutter_internship_task
 
 A new Flutter application.
 
